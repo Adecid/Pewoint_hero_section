@@ -1,1 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 @import "tailwindcss";
+
+@theme {
+  --color-primary-blue: #2596be;
+ --color-wistful: #9ca9d6;
+--color-cararra: #f2f1ee;
+--color-pigeon-post: #bdc8dc;
+--color-swans-down: #dbeee7;
+--color-bon-jour: #dfdadf;
+--color-geyser: #ccdede;
+--color-white: #ffffff;
+--color-link-water: #d2dcf4;
+--color-rose-fog: #ecc8c3;
+
+--font-family-quicksand: "Quicksand", sans-serif; 
+--font-family-montserrat: "Montserrat", sans-serif; 
+
+--background-image-gradient-cl: url("./bgGradient.png");
+}
+
+body {
+  font-family: 'Poppins', sans-serif
+}
+
+@layer utilities {
+  .button {
+    @apply tracking-wide text-sm font-family-montserrat font-semibold
+  } 
+}
+
+@layer components {
+  .hero-bg {
+    @apply bg-gradient-cl w-screen h-screen bg-center bg-cover absolute z-0;
+  }
+}

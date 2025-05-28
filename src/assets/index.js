@@ -1,5 +1,4 @@
 import logo from './logo.png';
-import bgGradient from './bgGradient.png';
 
 import h1 from './h1.png';
 import h2 from './h2.png';
@@ -17,5 +16,5 @@ import ng from './ng.png';
 import uk from './uk.png';
 
 export {
-    bgGradient, logo, p1, p2, p3, s1, s2, s3, ng, uk
+    logo, p1, p2, p3, s1, s2, s3, ng, uk
 }
