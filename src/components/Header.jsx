@@ -61,7 +61,7 @@ const Header = () => {
     }
 
     return (
-    <header className="fixed top-[1%] inset-x-2 md:inset-x-[3%] lg:inset-x-[5%]">
+    <header className="fixed top-[1%] z-50 inset-x-2 md:inset-x-[3%] lg:inset-x-[5%]">
       <div className="flex items-center bg-swans-down rounded-md px-3 shadow-xl max-xl:py-2">
         <img className="w-[6.3rem] block" width={100} height={40} src={logo} alt="Logo" />
 

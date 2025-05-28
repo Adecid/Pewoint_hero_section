@@ -18,15 +18,25 @@
 
 --font-family-quicksand: "Quicksand", sans-serif; 
 --font-family-montserrat: "Montserrat", sans-serif; 
+--font-family-poppins: 'Poppins', sans-serif;
 
 --background-image-gradient-cl: url("./bgGradient.png");
 }
 
-body {
-  font-family: 'Poppins', sans-serif
+@layer base {
+  body {
+    @apply font-family-poppins
+  }
+
 }
 
 @layer utilities {
+  h1 {
+    @apply text-3xl lg:text-5xl font-medium
+  }
+  p {
+    @apply text-black tracking-[.2px] font-family-quicksand
+  }
   .button {
     @apply tracking-wide text-sm font-family-montserrat font-semibold
   } 
