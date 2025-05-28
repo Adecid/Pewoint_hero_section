@@ -1,8 +1,12 @@
+import { logo } from "../assets"
+
 const Header = () => {
   return (
-    <div>
-      
-    </div>
+    <header>
+      <div className="">
+        <img src={logo} alt="" />
+      </div>
+    </header>
   )
 }
 
