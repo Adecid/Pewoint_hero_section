@@ -1,6 +1,6 @@
-const Button = ({children, onClick}) => {
+const Button = ({children, className, gradient, onClick}) => {
   
-    const classes = 'hidden lg:block button bg-primary-blue text-white inline-block px-6 py-2 rounded-md cursor-pointer'
+    const classes = `button text-white px-6 py-2 rounded-md cursor-pointer ${className || ''} ${gradient ? 'bg-custom-gradient' : 'bg-primary-blue'}`
 
     return (
     <button className={classes}>

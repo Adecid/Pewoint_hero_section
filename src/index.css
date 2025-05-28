@@ -30,6 +30,9 @@ body {
   .button {
     @apply tracking-wide text-sm font-family-montserrat font-semibold
   } 
+  .bg-custom-gradient {
+    @apply bg-[linear-gradient(315deg,_rgba(37,150,190,1)_0%,_rgba(37,150,190,1)_35%,_rgba(210,220,244,1)_100%)];
+  }
 }
 
 @layer components {
