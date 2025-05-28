@@ -1,0 +1,12 @@
+/* CSS HEX */
+--light-blue: #2596be
+ --wistful: #9ca9d6;
+--cararra: #f2f1ee;
+--pigeon-post: #bdc8dc;
+--swans-down: #dbeee7;
+--bon-jour: #dfdadf;
+--geyser: #ccdede;
+--cold-turkey: #d1beba;
+--wistful: #acabd9;
+--link-water: #d2dcf4;
+--rose-fog: #ecc8c3;
