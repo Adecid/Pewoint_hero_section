@@ -1,5 +1,6 @@
 import { ng, p1, p2, p3, s1, s2, s3, uk , ex1, ex2, ex3} from "../assets"
 import Button from "./Button"
+import IconCard from "./IconCard"
 import { BsArrowRight } from "react-icons/bs"
 import { IoIosArrowDown } from "react-icons/io";
 
@@ -83,8 +84,8 @@ const Hero = () => {
                 </ul>
             </div>
         </div>
-        <div className="img">
-            <div className="w-[28rem] bg-swans-down/50 rounded-3xl overflow-hidden backdrop-blur-3xl p-1">
+        <div className="relative z-3">
+            <div className="w-[28rem] bg-swans-down/50 shadow-2xl shadow-wistful/80 rounded-3xl overflow-hidden backdrop-blur-3xl p-1">
                 <div className="w-full bg-swans-down/70 rounded-3xl backdrop-blur-3xl overflow-hidden pointer-events-none p-3">
                 <h4 className="text-center mt-1 mb-3 text-[1.2rem]">Check Exchanges Rate</h4>
                     <ul className="relative bg-violet-50 grid grid-cols-2 rounded-[.9rem]">
@@ -110,6 +111,8 @@ const Hero = () => {
                     </Button>
                 </div>
             </div>
+            <IconCard icon={ex1} className='absolute -top-[14%] md:-top-[7%] left-1/2 md:-left-[5%] -rotate-[30deg] -z-1'/>
+            <IconCard icon={ex2} className='absolute top-1/2 -right-[5%] rotate-[17deg] z-1 shadow-gray-800/80'/>
         </div>
       </div>
     </div>

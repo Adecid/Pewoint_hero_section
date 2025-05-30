@@ -3,6 +3,7 @@ import { useLocation } from "react-router-dom";
 import Button from "./Button";
 import MenuSvg from "../assets/svg/Menu";
 import { useState } from "react";
+import { enablePageScroll, disablePageScroll } from "scroll-lock";
 
 const navigation = [
     {
@@ -50,8 +51,10 @@ const Header = () => {
     const toggleNavigation = () => {
         if(openNavigation) {
             setOpenNavigation(false);
+            enablePageScroll();
         } else {
-            setOpenNavigation(true)
+            setOpenNavigation(true);
+            disablePageScroll();
         }
     }
     
@@ -59,6 +62,7 @@ const Header = () => {
         if(!openNavigation) return;
         
         setOpenNavigation(false);
+        enablePageScroll();
     }
 
     return (
