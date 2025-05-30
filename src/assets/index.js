@@ -1,8 +1,8 @@
 import logo from './logo.png';
 
-import h1 from './h1.png';
-import h2 from './h2.png';
-import h3 from './h3.png';
+import h1 from './ex1.png';
+import h2 from './ex2.png';
+import h3 from './ex3.png';
 
 import p1 from './p1.png';
 import p2 from './p2.png';
@@ -16,5 +16,5 @@ import ng from './ng.png';
 import uk from './uk.png';
 
 export {
-    logo, p1, p2, p3, s1, s2, s3, ng, uk
+    logo, ex1, ex2, ex3, p1, p2, p3, s1, s2, s3, ng, uk
 }

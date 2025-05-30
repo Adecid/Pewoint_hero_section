@@ -33,11 +33,12 @@ const navigation = [
     {
         id: '5',
         title: 'Login ',
-        url: '',
+        url: '#login',
     },
     {
         id: '6',
         title: 'Sign up ',
+        url: '#signup',
         isVisible: true,
     },
 ];
