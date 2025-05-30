@@ -1,8 +1,7 @@
-import { ng, p1, p2, p3, s1, s2, s3, uk } from "../assets"
+import { ng, p1, p2, p3, s1, s2, s3, uk , ex1, ex2, ex3} from "../assets"
 import Button from "./Button"
 import { BsArrowRight } from "react-icons/bs"
 import { IoIosArrowDown } from "react-icons/io";
-import { ex1 } from '../assets'
 
 const proImg = [
     p1, p2, p3
@@ -88,9 +87,9 @@ const Hero = () => {
             <div className="w-[28rem] bg-swans-down/50 rounded-3xl overflow-hidden backdrop-blur-3xl p-1">
                 <div className="w-full bg-swans-down/70 rounded-3xl backdrop-blur-3xl overflow-hidden pointer-events-none p-3">
                 <h4 className="text-center mt-1 mb-3 text-[1.2rem]">Check Exchanges Rate</h4>
-                    <ul className="bg-violet-50 grid grid-cols-2 rounded-[.9rem]">
+                    <ul className="relative bg-violet-50 grid grid-cols-2 rounded-[.9rem]">
                         {exContent.map((item) => (
-                            <li key={item.id} className="w-full first:rounded-tl-[.9rem] nth-[2]:rounded-tr-[.9rem] nth-[3]:rounded-bl-[.9rem] last:rounded-br-[.9rem] border border-gray-200/80 py-5 px-4">   
+                            <li key={item.id} className="w-full h-22 first:rounded-tl-[.9rem] nth-[2]:rounded-tr-[.9rem] nth-[3]:rounded-bl-[.9rem] last:rounded-br-[.9rem] border border-gray-200/80 py-5 px-4">   
                                 {!item.floatNum ? (
                                     <div className="flex flex-col">
                                         <div className="flex items-center mb-1">
@@ -104,7 +103,7 @@ const Hero = () => {
                                 )}
                             </li>
                         ))}
-                        <span><img src={ex1} alt="Exchange image" /></span>
+                        <div className="absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 bg-white p-2 rounded-lg"><img src={ex3} width={20} height={20} className="opacity-30" alt="Exchange image" /></div>
                     </ul>
                     <Button gradient className='w-full py-3 !font-family-poppins !text-[1.1rem] !font-normal mt-7 !rounded-[.9rem]'>
                         Sign up

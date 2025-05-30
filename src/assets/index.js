@@ -1,8 +1,8 @@
 import logo from './logo.png';
 
-import h1 from './ex1.png';
-import h2 from './ex2.png';
-import h3 from './ex3.png';
+import ex1 from './ex1.png';
+import ex2 from './ex2.png';
+import ex3 from './ex3.png';
 
 import p1 from './p1.png';
 import p2 from './p2.png';
