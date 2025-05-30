@@ -1,12 +1,26 @@
-/* CSS HEX */
---light-blue: #2596be
- --wistful: #9ca9d6;
---cararra: #f2f1ee;
---pigeon-post: #bdc8dc;
---swans-down: #dbeee7;
---bon-jour: #dfdadf;
---geyser: #ccdede;
---cold-turkey: #d1beba;
---wistful: #acabd9;
---link-water: #d2dcf4;
---rose-fog: #ecc8c3;
+# Hero Section UI
+
+This is a responsive hero section built with [your tech stack, e.g., HTML, CSS, TailwindCSS, React]. The design is inspired by a layout I came across online, and I rebuilt it from scratch as part of my frontend practice and learning journey.
+
+## 🚀 Features
+
+- Fully responsive design
+- Clean, modern layout
+- Customizable content and styles
+
+## 🛠️ Technologies Used
+
+- Vite
+- TailwindCSS
+- React.js
+
+## 📁 Getting Started
+
+To view or modify this project locally:
+
+```bash
+git clone https://github.com/Adecid/Pewoint_hero_section
+cd your-repo-name
+# If using a framework like React or Vite
+npm install
+npm run dev
