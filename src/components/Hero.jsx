@@ -54,8 +54,8 @@ const exContent = [
 const Hero = () => {
   return (
     <div className="w-full min-h-screen pt-35 px-[8px] md:px-[3%] lg:px-[5%]">
-      <div className="flex flex-col lg:flex-row max-lg:items-start items-center justify-between w-full gap-10">
-        <div className="flex flex-col gap-5 items-start md:h-[70vh]">
+      <div className="flex flex-col lg:flex-row max-lg:items-start items-center justify-between w-full gap-16">
+        <div className="flex flex-col gap-5 items-start">
             <div className="flex items-center gap-1 bg-swans-down pe-3 rounded-3xl">
                 <div className="flex items-center ">
                     {proImg.map((item, index) => (
@@ -72,7 +72,7 @@ const Hero = () => {
                 Get the app
             </Button>
 
-            <div className="mt-5 md:mt-auto">
+            <div className="mt-12 md:mt-16 lg:mt-32">
                 <p className="font-medium mb-2 text-[14px]">Supported Currencies:</p>
                 <ul className="flex items-center bg-swans-down shadow-md shadow-gray-500/50 p-1 rounded-3xl">
                     {supCurrency.map((item) => (
@@ -85,7 +85,7 @@ const Hero = () => {
             </div>
         </div>
         <div className="relative z-3">
-            <div className="w-[28rem] bg-swans-down/50 shadow-2xl shadow-wistful/80 rounded-3xl overflow-hidden backdrop-blur-3xl p-1">
+            <div className="w-auto md:w-[28rem] bg-swans-down/50 shadow-2xl shadow-wistful/80 rounded-3xl overflow-hidden backdrop-blur-3xl p-1">
                 <div className="w-full bg-swans-down/70 rounded-3xl backdrop-blur-3xl overflow-hidden pointer-events-none p-3">
                 <h4 className="text-center mt-1 mb-3 text-[1.2rem]">Check Exchanges Rate</h4>
                     <ul className="relative bg-violet-50 grid grid-cols-2 rounded-[.9rem]">
