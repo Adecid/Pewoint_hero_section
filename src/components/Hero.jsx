@@ -72,7 +72,7 @@ const Hero = () => {
                 Get the app
             </Button>
 
-            <div className="mt-12 md:mt-16 lg:mt-32">
+            <div className="mt-12">
                 <p className="font-medium mb-2 text-[14px]">Supported Currencies:</p>
                 <ul className="flex items-center bg-swans-down shadow-md shadow-gray-500/50 p-1 rounded-3xl">
                     {supCurrency.map((item) => (
